@@ -1,3 +1,2 @@
 # UAV-Trajectory-Optimization
-Designed a gradient descent-based optimization algorithm in a simulation to minimize UAV energy consumption
-by balancing speed and altitude.
+Modeled UAV flight dynamics using differential equations in a simulation, optimizing paths with terrain, weather and energy constraints.
