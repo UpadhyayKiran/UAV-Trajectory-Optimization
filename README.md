@@ -8,16 +8,16 @@ This project focuses on optimizing the flight path of an Unmanned Aerial Vehicle
 ### 1. UAV Flight Dynamics
 The motion of a UAV can be described using differential equations that consider forces acting on the vehicle, including lift, drag, and thrust. The general equation of motion is given by:
 
-\[ m \frac{d^2x}{dt^2} = F_{thrust} - F_{drag} \]
-\[ m \frac{d^2y}{dt^2} = F_{lift} - mg \]
+$$\frac{d^2x}{dt^2} = F_{thrust} - F_{drag}$$
+$$\frac{d^2y}{dt^2} = F_{lift} - mg$$
 
 where:
-- \( m \) = Mass of the UAV (kg)
-- \( x, y \) = Position coordinates (m)
-- \( F_{thrust} \) = Thrust force (N)
-- \( F_{drag} \) = Aerodynamic drag force (N)
-- \( F_{lift} \) = Lift force (N)
-- \( g \) = Gravitational acceleration (9.81 m/s²)
+- $m$ = Mass of the UAV (kg)
+- $x, y$ = Position coordinates (m)
+- $F_{thrust}$ = Thrust force (N)
+- $F_{drag}$ = Aerodynamic drag force (N)
+- $F_{lift}$ = Lift force (N)
+- $g$ = Gravitational acceleration (9.81 m/s²)
 
 ### 2. Optimization Approach
 The optimization process refines the trajectory to minimize energy consumption while ensuring smooth navigation. This is achieved by solving the equations of motion under given constraints and applying numerical optimization techniques.
