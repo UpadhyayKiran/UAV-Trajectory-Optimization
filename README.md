@@ -46,6 +46,10 @@ The optimized UAV trajectory reduces unnecessary energy expenditure while ensuri
 
 **Figure 1.1:** Comparison of original vs. optimized UAV flight paths.
 
+![UAV Trajectory Optimization](uav_trajectory_optimization_m.png)
+
+**Figure 1.2:** Comparison of original vs. optimized UAV flight paths Using MATLAB.
+
 ## Conclusion
 This project demonstrates how mathematical modeling and optimization techniques can improve UAV trajectory planning. By integrating real-world constraints, we achieve a more efficient and practical UAV flight path, making this approach valuable for applications in autonomous navigation and drone technology.
 
